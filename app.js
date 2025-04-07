@@ -5,23 +5,23 @@ class Calculator {
   add(a, b) {
     // TODO: Fix this function
     // The test expects: add(2, 3) to return 5
-    return a - b; // This is wrong!
+    return a + b; // This is wrong!
   }
 
   multiply(a, b) {
     // TODO: Fix this function
     // The test expects: multiply(2, 3) to return 6
-    return a + b; // This is wrong!
+    return a * b; // This is wrong!
   }
 
   divide(a, b) {
     // TODO: Fix this function
     // The test expects: divide(6, 2) to return 3
     // The test expects: divide(5, 0) to return 'Cannot divide by zero'
-    if (b === 0) {
-      return a; // This is wrong!
+    if (a === 0) {
+      return 'Cannot divide by zero'; // This is wrong!
     }
-    return a / b;
+    return b / a;
   }
 }
 
